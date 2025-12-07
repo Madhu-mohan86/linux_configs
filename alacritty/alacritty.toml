@@ -1,0 +1,57 @@
+# ~/.config/alacritty/alacritty.toml
+
+# General settings (optional)
+# import = [ "~/.config/alacritty/some_theme.toml" ]
+# working_directory = "None"
+# live_config_reload = true
+
+[window]
+opacity = 0.70
+blur = true
+decorations = "Full"
+
+# Padding (optional)
+padding.x = 5
+padding.y = 5
+
+# Font settings — adjust to a font you have installed
+[font]
+normal.family = "monospace"
+bold.family = "monospace"
+italic.family = "monospace"
+bold_italic.family = "monospace"
+size = 12.0
+
+# Primary colors — only set foreground (text color)
+[colors.primary]
+foreground = "#cdd6f4"
+# background intentionally omitted to let transparency work
+
+# Cursor colors — optional / adjust if you like
+[colors.cursor]
+text   = "#1e1e2e"
+cursor = "#f5e0dc"
+
+# Normal colors for ANSI codes (optional, for colored output)
+[colors.normal]
+black   = "#45475a"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#f5c2e7"
+cyan    = "#94e2d5"
+white   = "#bac2de"
+
+[colors.bright]
+black   = "#585b70"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#f5c2e7"
+cyan    = "#94e2d5"
+white   = "#a6adc8"
+
+# (Indexed colors, dim / bright/dim variants, and other sections can be added if needed)  
+
