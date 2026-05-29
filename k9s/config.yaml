@@ -7,7 +7,7 @@ k9s:
   maxConnRetry: 5
   readOnly: false
   noExitOnCtrlC: false
-  portForwardAddress: localhost
+  portForwardAddress: remote
   ui:
     enableMouse: false
     headless: false
