@@ -3,7 +3,7 @@ k9s:
   gpuVendors: {}
   screenDumpDir: /home/madhu/.local/state/k9s/screen-dumps
   refreshRate: 2
-  apiServerTimeout: 2m0s
+  apiServerTimeout: 5m0s
   maxConnRetry: 5
   readOnly: false
   noExitOnCtrlC: false
